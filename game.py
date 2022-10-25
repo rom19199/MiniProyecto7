@@ -23,7 +23,7 @@ def drawHorLine(y1, y2, x, game):
         game[x][y] = SCORE
 
 
-def main():
+def game():
     juego = [[EMPTY for _ in range(SCREEN)] for _ in range(SCREEN)]
 
     xw = 10
@@ -129,7 +129,3 @@ def main():
     except:
         pygame.quit()
         quit()
-
-
-if __name__ == '__main__':
-    main()
