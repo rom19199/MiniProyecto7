@@ -1,8 +1,8 @@
 # Ajustes globales
 
 # Pantalla
-SCALE = 1
-SCREEN = 30
+SCALE = 5
+SCREEN = 100
 WIDTH = SCREEN * SCALE
 HEIGHT = SCREEN * SCALE
 
